@@ -14,9 +14,6 @@ body {
 nav {
   background-color: #ffffff; }
 
-section {
-  height: 500px; }
-
 footer {
   background: #3a3838;
   color: #ffffff;
@@ -245,6 +242,136 @@ button.footer-submit {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+.a{
+  margin: 100px 0;
+}
+.a .mom{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.a .mom div{
+  width: 30%;
+}
+.a .mom div img{
+  width: 80%;
+}
+.a .mom div #con{
+  margin-bottom: 10%;
+}
+.a .mom p{
+  font-size: 15px;
+}
+.b{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 30px 100px 30px;
+  background: rgba(199, 196, 196, 0.301);
+}
+.b div:nth-child(1){
+  width: 40%;
+  margin-top: 100px;
+}
+.b div:nth-child(1) h2{
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+.b div:nth-child(1) p{
+  font-size: 15px;
+  line-height: 28px;
+}
+.b div:nth-child(2){
+  width: 55%;
+}
+.b div:nth-child(2) img{
+  width: 100%;
+}
+.c{
+  text-align: center;
+  padding: 50px 0px;
+}
+.c h1{
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.c .mom{
+  display: flex;
+  flex-wrap: wrap;
+}
+.c .mom div{
+  width: 25%;
+}
+.c .mom div img{
+  width: 100%;
+}
+.d{
+  margin: 50px 0;
+  text-align: center;
+}
+.d h1{
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.d .mom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.d .mom .gy{
+  width: 22%;
+}
+.d .mom .gy img{
+  width: 100%;
+}
+.e{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  background: rgba(199, 196, 196, 0.301);
+}
+.e div{
+  width: 30%
+}
+.e form{
+  width: 30%;
+  padding: 40px;
+  background: white;
+  border-radius: 30px;
+  text-align: center;
+}
+.e h1{
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.e input, textarea{
+  border-bottom: 0.5px solid black;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.e button{
+  background: #3ac935;
+  color: #fff;
+  border:none;
+  margin-top: 10px;
+  padding: 15px 35px;
+  font-size:17px;
+}
+.e  button:hover{
+  color: #3ac935;
+  border: 2px solid #3ac935;
+  background: none;
+}
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px; }
@@ -350,9 +477,37 @@ button.footer-submit {
     font-size: 20px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none; }
-    .prev:hover,
-    .next:hover {
-      background: none; } }
+    user-select: none; 
+  }
+  .prev:hover,.next:hover {
+    background: none; 
+  } 
+  .a .mom div{
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .b div:nth-child(2),.b div:nth-child(1){
+    width: 100%;
+    margin-top: 20px;
+  }
+  .c .mom div{
+    width: 100%;
+  }
+  .d .mom .gy{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .e div{
+    width: 100%
+  }
+  .e form{
+    width: 100%;
+  }
+.e{
+padding-left: 0px;
+}
+    
+}
 
 /*# sourceMappingURL=style.css.map */
