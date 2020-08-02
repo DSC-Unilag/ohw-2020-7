@@ -309,6 +309,19 @@ button.footer-submit {
 .c .mom div img{
   width: 100%;
 }
+.c button{
+  background: #3ac935;
+  color: #fff;
+  border:none;
+  margin-top: 10px;
+  padding: 15px 35px;
+  font-size:17px;
+}
+.c  button:hover{
+  color: #3ac935;
+  border: 2px solid #3ac935;
+  background: none;
+}
 .d{
   margin: 50px 0;
   text-align: center;
@@ -347,6 +360,7 @@ button.footer-submit {
   background: white;
   border-radius: 30px;
   text-align: center;
+  margin-left: 40px;
 }
 .e h1{
   font-size: 30px;
@@ -358,6 +372,8 @@ button.footer-submit {
   border-bottom: 0.5px solid black;
   width: 100%;
   margin-bottom: 10px;
+  outline: none;
+  padding: 10px 5px;
 }
 .e button{
   background: #3ac935;
@@ -487,12 +503,21 @@ button.footer-submit {
     text-align: center;
     padding: 30px 20px;
   }
+  .b{
+    padding: 30px 10px;
+  }
   .b div:nth-child(2),.b div:nth-child(1){
     width: 100%;
     margin-top: 20px;
   }
+  .c,.d{
+    padding: 30px 10px;
+  }
   .c .mom div{
     width: 100%;
+  }
+  .b div:nth-child(1) h2,.c h1,.d h1,.e h1{
+    font-size: 20px;
   }
   .d .mom .gy{
     width: 100%;
@@ -502,10 +527,14 @@ button.footer-submit {
     width: 100%
   }
   .e form{
+    margin-top: 20px;
     width: 100%;
+    margin-left: 0;
   }
 .e{
-padding-left: 0px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
 }
     
 }
