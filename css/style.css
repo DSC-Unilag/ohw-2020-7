@@ -374,6 +374,7 @@ button.footer-submit {
   margin-bottom: 10px;
   outline: none;
   padding: 10px 5px;
+  font-family: "Recursive", sans-serif;
 }
 .e button{
   background: #3ac935;
@@ -498,20 +499,23 @@ button.footer-submit {
   .prev:hover,.next:hover {
     background: none; 
   } 
+  .a{
+  margin-top: 50px
+  }
   .a .mom div{
     width: 100%;
     text-align: center;
     padding: 30px 20px;
   }
   .b{
-    padding: 30px 10px;
+    padding: 30px 20px;
   }
   .b div:nth-child(2),.b div:nth-child(1){
     width: 100%;
     margin-top: 20px;
   }
   .c,.d{
-    padding: 30px 10px;
+    padding: 30px 25px;
   }
   .c .mom div{
     width: 100%;
@@ -532,11 +536,22 @@ button.footer-submit {
     margin-left: 0;
   }
 .e{
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 25px;
+padding-right: 25px;
 text-align: center;
 }
-    
+.a .mom div img {
+    width: 60%;
+}
+  .b div:nth-child(1) p {
+    font-size: 12px;
+}
+  .e p{
+  font-size: 12px;
+  }
+  .a .mom p {
+    font-size: 12px;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
