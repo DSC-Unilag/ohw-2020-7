@@ -374,6 +374,7 @@ button.footer-submit {
   margin-bottom: 10px;
   outline: none;
   padding: 10px 5px;
+  font-family: "Recursive", sans-serif;
 }
 .e button{
   background: #3ac935;
@@ -498,6 +499,9 @@ button.footer-submit {
   .prev:hover,.next:hover {
     background: none; 
   } 
+  .a{
+  margin-top: 50px
+  }
   .a .mom div{
     width: 100%;
     text-align: center;
@@ -536,7 +540,9 @@ padding-left: 10px;
 padding-right: 10px;
 text-align: center;
 }
-    
+.a .mom div img {
+    width: 60%;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
