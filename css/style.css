@@ -253,9 +253,11 @@ button.footer-submit {
 }
 .a .mom div{
   width: 30%;
+  text-align: center;
 }
 .a .mom div img{
-  width: 80%;
+  width: 30%;
+  margin-bottom: 20px;
 }
 .a .mom div #con{
   margin-bottom: 10%;
@@ -264,29 +266,33 @@ button.footer-submit {
   font-size: 15px;
 }
 .b{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px 30px 100px 30px;
+  padding: 50px 0 100px;
   background: rgba(199, 196, 196, 0.301);
 }
-.b div:nth-child(1){
-  width: 40%;
-  margin-top: 100px;
+
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.b div:nth-child(1) h2{
+
+.b .about-wrapper h2{
   font-weight: 100;
   font-size: 30px;
   text-decoration: underline;
+  text-align: center;
   padding-bottom: 20px;
 }
-.b div:nth-child(1) p{
+.b .about-wrapper p{
   font-size: 15px;
   line-height: 28px;
 }
-.b div:nth-child(2){
+.b .img-wrapper{
   width: 55%;
+  display: flex;
+  align-items: center;
 }
-.b div:nth-child(2) img{
+.b .img-wrapper img{
   width: 100%;
 }
 .c{
@@ -343,24 +349,23 @@ button.footer-submit {
 .d .mom .gy img{
   width: 100%;
 }
+
+.d img {
+  margin-bottom: 50px;
+  width: 100%;
+}
 .e{
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 30px;
   padding-bottom: 70px;
   padding-top: 70px;
   background: rgba(199, 196, 196, 0.301);
 }
-.e div{
-  width: 30%
-}
 .e form{
   width: 30%;
+  margin: auto;
   padding: 40px;
   background: white;
   border-radius: 30px;
   text-align: center;
-  margin-left: 40px;
 }
 .e h1{
   font-size: 30px;
@@ -515,7 +520,7 @@ button.footer-submit {
     margin-top: 20px;
   }
   .c,.d{
-    padding: 30px 25px;
+    padding: 30px 0;
   }
   .c .mom div{
     width: 100%;
