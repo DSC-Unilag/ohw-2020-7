@@ -278,7 +278,8 @@ button.footer-submit {
 
 .b .about-wrapper h2{
   font-weight: 100;
-  font-size: 30px;
+  font-size: 24px;
+  color: #3ac935;
   text-decoration: underline;
   text-align: center;
   padding-bottom: 20px;
@@ -300,7 +301,8 @@ button.footer-submit {
   padding: 50px 0px;
 }
 .c h1{
-  font-size: 30px;
+  font-size: 24px;
+  color: #3ac935;
   font-weight: 100;
   text-decoration: underline;
   margin-bottom: 20px;
