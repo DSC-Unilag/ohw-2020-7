@@ -282,6 +282,7 @@ button.footer-submit {
   text-decoration: underline;
   text-align: center;
   padding-bottom: 20px;
+  color: #3ac935;
 }
 .b .about-wrapper p{
   font-size: 15px;
@@ -304,6 +305,7 @@ button.footer-submit {
   font-weight: 100;
   text-decoration: underline;
   margin-bottom: 20px;
+  color: #3ac935;
 }
 .c .mom{
   display: flex;
